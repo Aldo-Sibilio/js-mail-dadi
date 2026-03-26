@@ -12,3 +12,5 @@ if (scelta === "mail") {
     "alfonso@gmail.com",
     "giada@gmail.com"
   ];
+// chiedo all'utente di inserire la propria email
+  const emailUtente = prompt("Inserisci la tua email");
