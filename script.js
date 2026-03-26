@@ -36,3 +36,12 @@ if (scelta === "mail") {
   }
 
 }
+
+// ESERCIZIO 2 - DADI
+else if (scelta === "dadi") {
+
+  // genero numero casuale per l'utente (da 1 a 6)
+  const numeroUtente = Math.floor(Math.random() * 6) + 1;
+
+  // genero numero casuale per il computer (da 1 a 6)
+  const numeroComputer = Math.floor(Math.random() * 6) + 1;
