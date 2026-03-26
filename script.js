@@ -45,3 +45,18 @@ else if (scelta === "dadi") {
 
   // genero numero casuale per il computer (da 1 a 6)
   const numeroComputer = Math.floor(Math.random() * 6) + 1;
+  
+    // stampo i numeri per vedere cosa è uscito
+  console.log("Numero utente:", numeroUtente);
+  console.log("Numero computer:", numeroComputer);
+
+  // confronto i numeri
+  if (numeroUtente > numeroComputer) {
+    console.log("Hai vinto!");
+  } else if (numeroComputer > numeroUtente) {
+    console.log("Ha vinto il computer!");
+  } else {
+    console.log("Pareggio!");
+  }
+
+}
